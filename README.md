@@ -51,6 +51,8 @@ Dense: 10 units (output), activation='softmax'
 
 ## Results
 
+### Model with `ReLU` performed slightly better than original `tanh` activation.
+
 Activation | epochs | train_accuracy | test_accuracy
 --- | --- | --- | --- 
 `tanh` | 22 | 0.9995 | 0.9806
